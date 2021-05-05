@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceDarkAllowed="false"
+    android:orientation="vertical"
+    android:background="#D1D1D1"
+    tools:context=".MainActivity">
+
+   <org.angmarch.views.NiceSpinner
+       android:id="@+id/testspinner"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="16dp"
+       android:textStyle="bold"
+       android:hint="Hello Coop">
+
+
+   </org.angmarch.views.NiceSpinner>
+   <jrizani.jrspinner.JRSpinner
+       android:id="@+id/spn_my_spinner"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:jrs_title="Choose"/>
+</LinearLayout>

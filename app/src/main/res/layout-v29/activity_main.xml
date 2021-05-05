@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D1D1D1"
+    tools:context=".MainActivity">
+
+
+   <jrizani.jrspinner.JRSpinner
+       android:background="@drawable/bkg_edit_text_background"
+       android:id="@+id/spn_my_spinner"
+       android:layout_width="match_parent"
+       android:layout_height="64dp"
+       android:layout_margin="20dp"
+       android:focusable="true"
+       android:foreground="?selectableItemBackground"
+       android:clickable="true"
+       android:outlineSpotShadowColor="#00FFFFFF"
+       android:shadowColor="#00FFFFFF"
+       android:shadowRadius="0"
+       android:shadowDx="0"
+       android:outlineProvider="none"
+       android:outlineAmbientShadowColor="#00FFFFFF"
+       android:padding="20dp"
+       app:jrs_title="Choose">
+
+   </jrizani.jrspinner.JRSpinner>
+
+</LinearLayout>
